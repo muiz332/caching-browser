@@ -1,0 +1,10 @@
+GET http://127.0.0.1:8080/api/notif
+If-None-Match: 1675075709000
+###
+POST http://127.0.0.1:8080/api/notif
+Content-Type: application/json
+
+{
+    "judul" : "promo1",
+    "deskripsi" : "promo terbaru1"
+}
